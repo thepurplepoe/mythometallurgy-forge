@@ -1,0 +1,57 @@
+Things -[Craft]-> Divine Infuser
+
+Divine infuser powered by energizers or things
+
+Iron + Things -[Divine Infuser]-> Divine Steel
+
+Divine Steel + Things -[Craft]-> Blessed Energizer
+
+Fuel -[Blessed Energizer]-> Better fuel
+
+Divine Steel + Things -[Craft]-> Forge of the gods (No parts)
+
+Divine Steel + Things -[Craft]-> Forge Parts { Frame, Core, Storage }
+
+Forge Parts + Energizer + Forge of the gods -> Upgraded
+
+Divine Steel + Forge of the gods -[Smelt]-> Hephaestan Steel
+
+Hephaestan Steel + Things + Blessed Energizer -[Craft]-> Exalted Energiser
+
+Hephaetsan Steel + Things -[Divine Energizer]-> Pheonix alloy 
+
+Exalted Energizer + Pheonix Alloy -[Craft]-> Transcendent Energizer
+
+Pheonix Alloy + Things -[Craft]-> Better forge parts
+
+Pheonix stuff can be energized in energizer
+
+Energized Pheonix tools can be used to mine Promethean essence
+
+Promethean Remnants -[Energizer]-> Promethean fragments
+
+Promethean Fragments + Hephaestan Steel -[Divine Infuser]-> Corporeal Prometheum
+
+Hephaestan Steel + Ice -[Divine Infuser surrounded with snow]-> Boreal Metal
+
+Hephaestan Steel + Ice -[Forge of the gods with Boreal Core]-> Boreal Metal
+
+Water Bucket + Things -[Divine Infuser-> Hell water
+
+Hellwater -[Forge of the gods with Boreal Core]-> Water of the styx
+
+Transcendental Energizer + Water of the styx -[Divine Infuser]-> Stygian Core
+
+Hephaestan Steel -[Forge of the gods with Stygian Core]-> Stygian Blacksteel
+
+Stygian Blacksteel -[Craft]-> Forge parts
+
+Stygian Core -[Forge of the gods full Stygian]-> Abyssal shard
+
+Abyssal Shard + Promethan Core -[Divine Infuser]-> Drain shard (WIPNAME)
+
+Drain shard + Transendental Energizer -[Craft]-> Drain Energizer (WIPNAME)
+
+Energized Pheonix Alloy Block -[Drain Energizer]-> Awakened Helion
+
+
