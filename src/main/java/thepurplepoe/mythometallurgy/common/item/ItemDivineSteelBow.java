@@ -12,7 +12,6 @@ import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.EnumAction;
 import net.minecraft.item.IItemPropertyGetter;
-import net.minecraft.item.ItemArrow;
 import net.minecraft.item.ItemStack;
 import net.minecraft.stats.StatList;
 import net.minecraft.util.ActionResult;
@@ -24,7 +23,6 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import thepurplepoe.api.items.ItemWrapper;
-import thepurplepoe.mythometallurgy.common.entity.EntityDivineArrow;
 
 public class ItemDivineSteelBow extends ItemWrapper {
 
@@ -74,7 +72,7 @@ public class ItemDivineSteelBow extends ItemWrapper {
             EntityPlayer entityplayer = (EntityPlayer)entityLiving;
             boolean flag = true;
 
-            int i = this.getMaxItemUseDuration(stack) - timeLeft;
+            //int i = this.getMaxItemUseDuration(stack) - timeLeft;
            // i = net.minecraftforge.event.ForgeEventFactory.onArrowLoose(stack, worldIn, (EntityPlayer)entityLiving, i, itemstack != null || flag);
            // if (i < 0) return;
 
@@ -133,7 +131,7 @@ public class ItemDivineSteelBow extends ItemWrapper {
         }
     }
     
-    public ActionResult<ItemStack> onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn, EnumHand hand)
+	public ActionResult<ItemStack> onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn, EnumHand hand)
     {
         boolean flag = true;
 
@@ -142,12 +140,12 @@ public class ItemDivineSteelBow extends ItemWrapper {
 
         if (!playerIn.capabilities.isCreativeMode && !flag)
         {
-            return !flag ? new ActionResult(EnumActionResult.FAIL, itemStackIn) : new ActionResult(EnumActionResult.PASS, itemStackIn);
+            return !flag ? new ActionResult<ItemStack>(EnumActionResult.FAIL, itemStackIn) : new ActionResult<ItemStack>(EnumActionResult.PASS, itemStackIn);
         }
         else
         {
             playerIn.setActiveHand(hand);
-            return new ActionResult(EnumActionResult.SUCCESS, itemStackIn);
+            return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, itemStackIn);
         }
     }
 }
