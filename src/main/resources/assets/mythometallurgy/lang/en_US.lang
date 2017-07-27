@@ -1,0 +1,10 @@
+#Items
+item.divineEssence.name=Divine Essence
+item.divineSteel.name=Divine Steel
+item.divineSteelBow.name=Divine Steel Bow
+
+#Blocks
+tile.divineSteelBlock.name=Divine Steel Block
+
+#Mod Stuff
+itemGroup.MythoMetallurgy=Mytho Metallurgy

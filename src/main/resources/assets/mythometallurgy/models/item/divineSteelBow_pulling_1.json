@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "mythometallurgy:items/divineSteelBow_pulling_1"
+    }
+}
